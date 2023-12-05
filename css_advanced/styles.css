@@ -1,0 +1,47 @@
+body {
+    width: 1440px;
+    height: 3718px;
+}
+
+header {
+    width: 1103.408px;
+    height: 29.461px;
+    flex-shrink: 0;
+}
+
+.background {
+    background: url('/css_advanced/images/first_section/background.png');
+    width: 1448.15px;
+    height: 1055px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+}
+
+.links-block {
+    display: inline-flex;
+    height: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 52px;
+    flex-shrink: 0;
+}
+
+.main-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.slogan {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
