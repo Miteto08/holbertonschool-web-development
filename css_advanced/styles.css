@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url('/css_advanced/images/first_section/background.png');
     background-repeat: no-repeat;
     background-size: auto;
@@ -6,12 +6,13 @@ body{
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .logos {
-    width: 15%;
-    margin-left: 70px;
-    margin-top: 16px;
+    width: 13%;
+    margin-left: 100px;
+    margin-top: 20px;
     position: relative;
     cursor: pointer;
 }
@@ -20,11 +21,10 @@ body{
     color: white;
     font-size: 12px;
     font-weight: 700;
-    font-family: 'Source Sans Pro';
     text-decoration: none;
     position: relative;
-    left: 850px;
-    padding: 15px;
+    left: 750px;
+    padding: 25px;
     bottom: 15px;
     cursor: pointer;
 }
@@ -33,24 +33,24 @@ body{
     text-align: center;
     color: white;
     font-size: 120px;
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
-    padding-top: 50px;
+    padding-top: 55px;
+    margin-bottom: 60px;
 }
 
-.t1{
+.t1 {
     text-align: center;
     color: white;
     position: relative;
-    bottom: 80px;
+    bottom: 75px;
     display: inline;
-    left: 597px;
-    margin: 17px;
+    left: 565px;
+    margin: 28px;
     font-weight: 700;
-    bottom: 110px;
 }
 
 .btn1 {
+    font-family: 'Source Sans Pro', sans-serif;
     width: 160px;
     height: 45px;
     position: relative;
@@ -59,57 +59,52 @@ body{
     border-radius: 22px;
     color: white;
     font-size: 14px;
-    font-family: 'Source Sans Pro';
     cursor: pointer;
-    left: 663px;
+    left: 330px;
     border: none;
 }
 
-.head2 span{
+.head2 span {
     color: #C271FF;
     font-size: 32px;
-    font-family: 'Source Sans Pro';
     font-weight: 700;
 }
 
-
 .flex-container {
+    position: relative;
     display: flex;
     justify-content: center;
+    top: 140px;
 }
 
 .head2 {
     color: white;
     font-size: 32px;
-    font-family: 'Source Sans Pro';
     font-weight: 300;
     position: relative;
     justify-content: center;
-    margin-top: 0px;
-    margin-left: 50px;
 }
 
 .person-card {
+    position: relative;
     display: flex;
     justify-content: center;
+    top: 100px;
 }
-  
+
 .person {
-   text-align: center;
-    margin: 70px;
-  }
-  
+    text-align: center;
+    padding: 70px;
+}
+
 .person img {
     display: block;
-    max-width: 100px;
-    margin: 0 auto;
 }
 
 .name {
     color: white;
     font-size: 18px;
-    font-family: 'Source Sans Pro'; 
-    font-weight: 900; 
+    font-weight: 900;
     line-height: 27px;
 }
 
@@ -118,7 +113,6 @@ body{
     text-align: center;
     color: white;
     font-size: 13px;
-    font-family: 'Source Sans Pro', sans-serif;
     font-style: italic;
     font-weight: 400;
     line-height: 24px;
@@ -131,10 +125,11 @@ body{
     width: 1440px;
     height: 392px;
     background: #C271FF;
+    margin-top: 23px;
 }
 
 .image {
-    left: 250px; 
+    left: 250px;
     top: 80px;
     position: absolute;
 
@@ -152,7 +147,6 @@ body{
     width: 730px;
     color: white;
     font-size: 22px;
-    font-family: 'Source Sans Pro';
     font-weight: 400;
     line-height: 33.60px;
 }
@@ -160,7 +154,6 @@ body{
 .PersonName {
     color: white;
     font-size: 22px;
-    font-family: 'Source Sans Pro';
     font-weight: 700;
     line-height: 33.60px;
 }
@@ -168,7 +161,6 @@ body{
 .WeatherPresenter {
     color: white;
     font-size: 22px;
-    font-family: 'Source Sans Pro';
     font-style: italic;
     font-weight: 400;
     line-height: 33.60px;
@@ -183,24 +175,24 @@ body{
 }
 
 .part2 {
+    color: #071629;
     text-align: center;
     margin-bottom: 100px;
     margin-top: 70px;
+    font-weight: 300;
 }
 
-.part2  span{
+.part2 span {
     color: #C271FF;
     font-size: 32px;
-    font-family: 'Source Sans Pro';
     font-weight: 700;
-    word-wrap: break-word;
 }
 
 .back {
     width: 255px;
     height: 335px;
     top: 0px;
-    left: 30px;
+    left: 158px;
     position: absolute;
     background: white;
     box-shadow: 0px 2px 4px rgba(7, 22, 41, 0.18);
@@ -210,7 +202,7 @@ body{
 .back2 {
     width: 255px;
     height: 335px;
-    left: 400px;
+    left: 444px;
     top: 0px;
     position: absolute;
     background: white;
@@ -221,7 +213,7 @@ body{
 .back3 {
     width: 255px;
     height: 335px;
-    left: 800px;
+    left: 729px;
     top: 0px;
     position: absolute;
     background: white;
@@ -232,7 +224,7 @@ body{
 .back4 {
     width: 255px;
     height: 335px;
-    left: 1200px;
+    left: 1014px;
     overflow-x: hidden;
     top: 0px;
     position: absolute;
@@ -244,7 +236,6 @@ body{
 .PhillipMassey {
     color: #C271FF;
     font-size: 14px;
-    font-family: 'Source Sans Pro';
     font-weight: 600;
     line-height: 28px;
     word-wrap: break-word;
@@ -262,10 +253,8 @@ body{
     width: 242px;
     color: rgba(7, 22, 41, 0.50);
     font-size: 14px;
-    font-family: 'Source Sans Pro'; 
     font-weight: 400;
     line-height: 15px;
-    word-wrap: break-word;
     position: relative;
     left: 10px;
 }
@@ -273,11 +262,9 @@ body{
 .DiagonalSmile {
     color: #071629;
     font-size: 16px;
-    font-family: 'Source Sans Pro';
     font-weight: 700;
     position: relative;
     left: 10px;
-    word-wrap: break-word;
 }
 
 .Min {
@@ -285,10 +272,8 @@ body{
     left: 210px;
     color: #C271FF;
     font-size: 14px;
-    font-family: 'Source Sans Pro';
     font-weight: 600;
     line-height: 10px;
-    word-wrap: break-word;
 }
 
 .rating {
@@ -308,60 +293,52 @@ body{
 /*Part3FreeMembership*/
 
 .Part3FreeMembership {
-    width: 1520px;
-    height: 502px;
+    width: 1440px;
+    height: 400px;
     background: #071629;
     display: flex;
     justify-content: center;
     position: relative;
-    left: -10px;
 }
 
 .member {
+    background: #071629;
+    margin: 0;
+    padding-top: 70px;
     text-align: center;
     color: white;
     font-size: 32px;
-    font-family: 'Source Sans Pro';
     font-weight: 300;
-    word-wrap: break-word;
     position: relative;
-    bottom: -70px;
-}   
+}
 
 .member span {
     color: #C271FF;
-    font-size: 32px;
-    font-family: 'Source Sans Pro';
     font-weight: 700;
-    word-wrap: break-word;
 }
 
 .details {
     position: relative;
-    top: 150px;
+    top: 60px;
     right: -90px;
 }
 
 .text4 {
     width: 221px;
-    text-align: center; 
-    color: white; 
-    font-size: 14px; 
-    font-family: 'Source Sans Pro'; 
-    font-weight: 400; 
-    line-height: 26px; 
-    word-wrap: break-word;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
 }
 
 .head3 {
-    width: 256px; 
-    text-align: center; 
-    color: white; 
-    font-size: 18px; 
-    font-family: 'Source Sans Pro'; 
-    font-weight: 600; 
+    width: 256px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
     line-height: 26px;
-     word-wrap: break-word;
 }
 
 .smile {
@@ -370,47 +347,41 @@ body{
 }
 
 .btn2 {
+    font-family: 'Source Sans Pro', sans-serif;
     width: 162px;
-    height: 44px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    background: #C271FF; 
+    height: 44px;
+    position: absolute;
+    background: #C271FF;
     border-radius: 22px;
     position: relative;
-    top: 390px;
-    left: -550px;
+    top: 300px;
+    left: -520px;
     color: white;
     font-size: 14px;
-    font-family: 'Source Sans Pro';
-    font-weight: 600;
+    font-weight: 400;
     cursor: pointer;
+    border: none;
 }
 
 .faq {
     text-align: center;
     color: #071629;
     font-size: 60px;
-    font-family: 'Source Sans Pro';
     font-weight: 300;
-    word-wrap: break-word;
 }
 
 .HowDoesThisWork {
     color: #071629;
     font-size: 16px;
-    font-family: 'Source Sans Pro';
     font-weight: 700;
-     word-wrap: break-word;
 }
 
 .LoremIpsumDolorSi {
     width: 350px;
     color: rgba(7, 22, 41, 0.50);
-    font-size: 14px; font-family: 'Source Sans Pro';
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    word-wrap: break-word;
 }
 
 .FAQ {
@@ -419,11 +390,10 @@ body{
 }
 
 .footer {
-    width: 1519px;
+    width: 1440px;
     margin-top: 70px;
-    height: 249px; 
-    left: 0px; 
-    position: absolute; 
+    height: 249px;
+    position: absolute;
     background: #071629;
 }
 
@@ -439,18 +409,20 @@ body{
     display: flex;
     width: 30px;
     height: 30px;
-    left: 1200px;
-    top: 150px;
+    left: 1100px;
+    top: 90px;
     position: absolute;
+}
+
+.social-logo {
+    margin: 10px;
 }
 
 .smileschool {
     opacity: 0.35;
     color: white;
     font-size: 12px;
-    font-family: 'Source Sans Pro';
     font-weight: 400;
-    word-wrap: break-word;
     text-align: center;
     position: relative;
     top: 160px;

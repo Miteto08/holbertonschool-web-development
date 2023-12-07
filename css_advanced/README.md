@@ -3,6 +3,8 @@ __**CSS Advanced Project Overview**__
 
 This project focuses on enhancing a webpage's visual style using HTML, CSS, and JavaScript. Ensure completion of tasks from the previous 0x02. HTML, advanced project.
 
+![cover](/css_advanced/images/1f4cd63ecc3a8c03b0f4309b74aca179e225aabf.jpg)
+
 **Learning Objectives**
 
 * Understand CSS basics, selectors, classes, specificity, box properties, and webpage loading.
