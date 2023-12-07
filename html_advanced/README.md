@@ -2,7 +2,7 @@ __**HTML Advanced Project**__
 
 This project involves implementing a webpage from scratch using HTML only. The goal is to create a well-structured and semantic HTML foundation for the website without any CSS styling.
 
-[img](/html_advanced/img/1f4cd63ecc3a8c03b0f4309b74aca179e225aabf.jpg)
+![cover](/html_advanced/img/1f4cd63ecc3a8c03b0f4309b74aca179e225aabf.jpg)
 
 **Learning Objectives**
 
